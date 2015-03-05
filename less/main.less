@@ -1,0 +1,27 @@
+// out: ../css/main.css
+// main: main.less
+
+@import "color";
+@import "fonts";
+
+body {
+  background: @dark;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 6em;
+  background: @bright;
+  padding: .25em;
+
+  &:hover {background: @wildcard; }
+
+  span { color: @accent; }
+}
+
+span {
+  .sans-serif();
+  color: red;
+}

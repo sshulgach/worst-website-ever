@@ -1,0 +1,24 @@
+body {
+  background: #333333;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+h1 {
+  font-size: 6em;
+  background: #ffc0cb;
+  padding: .25em;
+}
+h1:hover {
+  background: #008080;
+}
+h1 span {
+  color: #ffdab9;
+}
+span {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  letter-spacing: 0.125em;
+  color: red;
+}
